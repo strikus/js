@@ -36,7 +36,9 @@ let age1= 19;
 age1 = String(age1);
 console.log(typeof age1);
 
-let myStr = "sd";
-myStr = Number(myStr); console.log(typeof myStr);
+// let myStr =Number ("sd");
+let myStr = ("sd");
+myStr = Number(myStr);
+ console.log(typeof myStr);
 
 

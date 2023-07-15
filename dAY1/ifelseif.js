@@ -24,7 +24,8 @@ else{
     console.log("too hot");
 }
 
-// when condition in else if enter if get true it not check other below condition same in if get true it not check else if 
+// if get true not check below condition and if not true 
+// check else if 
 
 
 

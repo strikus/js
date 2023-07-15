@@ -16,7 +16,7 @@
 
 for(let j=0; j<=9;j++){
    if(j===4){
-    continue;
+    continue; // continue keyword skip when loop true and return to for loop 
    }
    console.log(j);
 }
