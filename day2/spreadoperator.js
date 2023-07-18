@@ -46,4 +46,6 @@ console.log(newObject1); // 0:a 1:b 2:c
 
 const newArrayobj = {...["item1","item2"]};
 console.log(newArrayobj);
+//{0: 'item1', 1: 'item2'}
+
 

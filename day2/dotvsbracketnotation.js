@@ -27,3 +27,5 @@ const key = "email"
 
 person[key]="rohit@gmail.com"
 console.log(person);
+
+// use without "" so store its value as key 

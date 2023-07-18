@@ -2,11 +2,11 @@
 let num1=6;
 let num2=num1;
 
-console.log("value of num1 is ", num1);
-console.log("value of num1 is ", num2);
+console.log("value of num1 is ", num1);//6
+console.log("value of num1 is ", num2);//6
 num1++;
-console.log("value of num1 is ", num1);
-console.log("value of num1 is ", num2);
+console.log("value of num1 is ", num1);//7
+console.log("value of num1 is ", num2);//6
 
 
 //refrence type

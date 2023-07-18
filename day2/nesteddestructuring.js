@@ -20,5 +20,5 @@ const [{firstName:changedName,userID}, , {gender:user3gende}]= users;
 console.log(changedName,userID); // rohit 1 
  // male
 
- console.log(user3gende);
+ console.log(user3gende); // male
 
