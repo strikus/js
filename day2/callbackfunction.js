@@ -32,3 +32,19 @@ function myyFunc8(callback){
 myyFunc8(myFunc4)
 
 // koi bhi function as input liya = callback
+
+
+
+function kid(a,b){
+    console.log("inside func2");
+    console.log(a+b);
+}
+
+function kidfunc(callback,a,b){
+    console.log("kidfunc");
+    callback(a,b);
+   
+}
+
+
+kidfunc(kid,3,4)

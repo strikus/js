@@ -73,7 +73,16 @@ const users =[
 users.forEach((user,index)=>{
         console.log(user.firstName,index);
  } )
+//  harshit 0
+// arraymethods.js:74 mohit 1
+// arraymethods.js:74 garmia 2
+// arraymethods.js:74 nithsh 3
 
 // for(let user of users){
 //     console.log(user.firstName);
 // }
+
+
+
+// forEach can console log and it nor return array as map
+
