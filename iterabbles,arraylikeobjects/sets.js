@@ -42,7 +42,7 @@ if(numb.has(1)){
 else{
     console.log("not present")
 }
-
+    QAW
 console.log(numb)
 
 // it is iterable  we can use for of
