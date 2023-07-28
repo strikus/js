@@ -23,6 +23,6 @@ console.log(obj2.key2)// we can access the obj1 key value pair in obj2
 console.log(obj2.key1)
 console.log(obj2)
 // will give back obj2 and proto obj1 key value pairs
-// js ko jo chiz apne na milti js apne kribi jgh jakechizl eta\                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+// js ko jo chiz apne na milti js apne kribi jgh jakechizl eta\
 
 
