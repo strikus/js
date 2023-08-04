@@ -49,4 +49,3 @@ var firstName = "rohit"
 
 // and all var function all addd before execute first line
 // js store var in object as key value pair
-cd 
