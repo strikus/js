@@ -11,11 +11,11 @@ const person = {
 //for in loop
 // object.keys
 for(let key in person){
-    // console.log(key);// it will give 
+    // console.log(key);// it will give
     // name age hobbies
-    // console.log(person[key])
+    console.log(person[key])
     // it will give key's value // rohit 22 array
-    // console.log(person["key"]);
+    console.log(person["key"]);
     // // undefined
     console.log(`${key}: ${person[key]}`);
     console.log(key ,":",person[key]);
@@ -32,5 +32,6 @@ let val = Array.isArray(Object.keys(person))
 console.log(val); // true
 
 for(let key of Object.keys(person)){
-    console.log(person[key]);
-} // will return key value pairs 
+    console.log(person[key]); // will print value pair
+    console.log(key) // will give key
+} // will return key value pairs

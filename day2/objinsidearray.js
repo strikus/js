@@ -8,7 +8,15 @@ const users = [
 ]
 
 for(let user of users){
+
     console.log(user.userId)
     console.log(user.firstName)
     console.log(user.Gender)
+}
+
+for(let user in users){
+    let userss= users[user]
+    console.log(userss.userId)
+    console.log(userss.firstName)
+    console.log(userss.Gender)
 }
