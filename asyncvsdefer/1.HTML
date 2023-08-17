@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script> // if u link ur js here it will parse and parse of html stopped so when js execute afterparsing it will get error because it didnt parsed required html elemetns
+    <script src="1.js" async></script>
+   // async key wword do loading of js and parse html with it too as js load but html parsed half it will stop at that place and then try to execute js so error not good 
+
+   //defer
+   <script src="1.js" defer></script>
+   // defer //parsing to chl rhi h to loading bhi krde simulatnaously 
+   // we reached at anyt plkace of html parsed still happens as loading of js done instead \// after parse done it execute js
+</head>
+<body>
+    
+
+
+
+
+
+    // at end of body after parsing all html elemetns
+    //then it execute the js after parsing full elemetns
+    <script src="1.js"></script>
+// error in this is 
+//1. time in parse in html//2/ js laod //3 js parsing execute synchronus process 
+</body>
+</html>

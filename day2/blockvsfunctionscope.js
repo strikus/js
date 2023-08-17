@@ -37,7 +37,7 @@ if(true){
 
 function myApp(){
     if(true){
-        var firstName="harshit";
+        var firstName="hi";
         console.log(firstName);
     }
     if(true){

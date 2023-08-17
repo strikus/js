@@ -16,6 +16,6 @@ function personDetails({firstName,gender}) // we know it getting person object s
 {
     console.log(firstName);
     console.log(gender);
-    console.log(age);// undefined
+    // console.log(age);// undefined/
 }
 personDetails(person);

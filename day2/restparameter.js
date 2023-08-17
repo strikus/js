@@ -9,7 +9,7 @@ function myFunc(a,b,...c){
 }
 
 myFunc(3,4,5)// 3 argument it can hold
-myFunc(3,4,5,6,7,8,9)// add other remaining in c as array use of rest parameter
+myFunc(3,4,3,6,7,8,9)// add other remaining in c as array use of rest parameter
 
 
 function addAll(...numbers){
